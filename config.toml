@@ -1,0 +1,63 @@
+baseURL = "/"
+languageCode = "zh-cn"
+title = "乐投天下受害者联盟"
+theme = "minimal"
+disqusShortname = "ousui"
+# canonifyurls = true
+builddrafts = true
+hasCJKLanguage = true
+paginate = 100
+
+[params]
+    author = "letou110.win"
+    description = ""
+    githubUsername = "ousui"
+    accent = "#a9a0a0"
+    introStyle = "color: red;"
+    showBorder = true
+    backgroundColor = "#fefefe"
+    # font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+	copyright = "(c) Copyright letou110.win, 乐投天下受害者联盟"
+	dateFormat = "2006 年 01 月 2 日" 
+
+[[menu.main]]
+    url = "/"
+    name = "乐投天下受害者联盟"
+    weight = -1
+    identifier = "logo"
+
+[[menu.main]]
+    url = "/"
+    name = "首页"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "事件进展"
+    weight = 2
+
+[[menu.main]]
+    url = "/infos/"
+    name = "乐投信息"
+    weight = 3
+
+[[menu.main]]
+    url = "/110/"
+    name = "如何报案"
+    weight = 4
+
+[[menu.main]]
+    url = "/about/"
+    name = "关于本站"
+    weight = 0
+
+[[menu.main]]
+    url = "/pan.html"
+    name = "网盘档案"
+    weight = 5
+    identifier = "url"
+
+
